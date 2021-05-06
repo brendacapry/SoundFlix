@@ -1,0 +1,99 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--preta);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+header .logo {
+  color: var(--vermelho);
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 40px;
+  margin-left: 5px;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+header nav a:hover {
+  color: white;
+}
+.pesquisa{
+  background-color: var(--preta);
+  color: #aaa;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 5px 0 10px;
+  width: 150px;
+
+}
+.acount i{
+  color: #aaa;
+}
+.acount a{
+  margin: 0 30px 0 5px;
+}
+i:hover{
+  color: white;
+}
+.principal{
+  background: linear-gradient(rgba(48,35,35,.50),rgba(0,0,0,.50)100%), url('../img/banner.jpg');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.principal .titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.principal .descricao {
+  margin: 10px 0 40px 0;
+}
+.principal .container {
+  width: 50%;
+}
+.botao {
+  background-color: rgba(211, 38, 38, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  transition: 0.3s ease all;
+}
+.botao:hover {
+  background-color: white;
+  color: var(--preta);
+}
+.botao i {
+  margin-right: 8px;
+}
+.container {
+  margin-left: 20px;
+}
+.box-sound {
+  height: 100%;
+  width: 100%;
+}
+.carrosel-sound {
+  margin-top: 5px;
+}
